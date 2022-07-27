@@ -21,7 +21,7 @@ class MyHomePageState extends State<SchedulingWidget> {
   void initState() {
 
     super.initState();
-    //NotificationListenerProvider().getMessage(context);
+    NotificationListenerProvider().getMessage(context);
 
   }
   @override
